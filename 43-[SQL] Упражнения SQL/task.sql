@@ -1,5 +1,3 @@
---HOMEWORK43
-
 create table package(
 id serial primary key,
 name varchar(50) not null,
