@@ -1,0 +1,81 @@
+	body {
+		background-color: #999;
+		font-family:'Open Sans', Arial;
+		font-size: 12px;
+	}
+	#container {
+		margin:0 auto;
+		width:870px;
+		margin-bottom: 20px;
+		margin-top: 30px;
+	}
+	h1 {font-size: 37px;}
+	h3 {font-size: 20px;}
+	
+	.socialicons li {
+		display:inline;
+		margin-left:2px;
+		margin-top:25px;
+	}
+	#profile {
+		overflow:hidden;
+		background-color:#fdd42f;		
+	}
+	.about {
+		float:left;
+		margin-top:30px;
+		width:490px;
+		margin-left:20px;
+	}
+	.about .photo-inner {
+		float:left;
+		width:192px;
+		height:212px;
+		padding:12px 0 0 20px;
+	}
+	.about h1 {
+		font-weight:900;
+		color:#FFF;
+		line-height:34px;
+		margin-top:8px;
+	}
+	.about h3 {
+		margin-top:5px;
+		font-size:18px;
+		color:#FFF;
+		line-height:18px;
+	}
+	.about p {
+		font-size:14px;
+		margin-top:15px;
+		color:#bc9010;
+		line-height:20px;
+	}
+	.personal-info {
+		float:left;
+		margin-top:30px;
+		width:310px;
+		min-height:230px;
+		margin-left:10px;
+		padding:20px 0 0 20px;
+	}
+	.personal-info li {
+		font-size:14px;
+		margin-bottom:10px;
+		overflow: hidden;
+	}
+	.personal-info li label {
+		color:#a87f09;
+		background-color:#f4c024;
+		float:left;
+		padding:4px 7px;
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	}
+	.personal-info li span {
+		float:right;
+		width:215px;
+		color:#a87f09;
+	}
+	
