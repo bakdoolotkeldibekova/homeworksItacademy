@@ -3,3 +3,4 @@ public class Thread2 extends Thread {
     public void run() {
         Result.result /= 2;
     }
+}
