@@ -1,0 +1,19 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/postgres</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">BAGDASH...</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL9Dialect</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
+        <property name="show_sql">true</property>
+        <property name="hibernate.enable_lazy_load_no_trans">true</property>
+        <mapping class="kg.entity.Employee"/>
+        <mapping class="kg.entity.EmployeeAddress"/>
+        <mapping class="kg.entity.Department"/>
+        <mapping class="kg.entity.Country"/>
+        <mapping class="kg.entity.Sport"/>
+        <mapping class="kg.entity.Team"/>
+        <mapping class="kg.entity.Championship"/>
+    </session-factory>
+</hibernate-configuration>
