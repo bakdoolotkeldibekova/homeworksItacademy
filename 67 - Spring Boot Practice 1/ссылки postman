@@ -6,18 +6,20 @@ http://localhost:8080/marksDetails/isPassed_{isPassed}
 
 POST REQUEST
 http://localhost:8080/marksDetails
-json examole:
+json example:
 {
-	"email":"alimNazarov@gmail.com",
-	"firstName":"Alim",
-	"lastName":"Nazarov"
+	"subject":"Math",
+	"marksObtained":100,
+	"student":{
+		"id":1
+	}
 }
 
 PUT REQUEST
-http://localhost:8080/marksDetails
+http://localhost:8080/students
 json examole:
 {
-  "id":1,
+  	"id":1,
 	"email":"alimNazarov@gmail.com",
 	"firstName":"Alim",
 	"lastName":"Nazarov"
