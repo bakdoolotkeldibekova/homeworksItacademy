@@ -1,0 +1,27 @@
+GET REQUEST
+http://localhost:8080/marksDetails
+http://localhost:8080/marksDetails/studentId_{studentId}
+http://localhost:8080/marksDetails/subject_{subject}
+http://localhost:8080/marksDetails/isPassed_{isPassed}
+
+POST REQUEST
+http://localhost:8080/marksDetails
+json examole:
+{
+	"email":"alimNazarov@gmail.com",
+	"firstName":"Alim",
+	"lastName":"Nazarov"
+}
+
+PUT REQUEST
+http://localhost:8080/marksDetails
+json examole:
+{
+  "id":1,
+	"email":"alimNazarov@gmail.com",
+	"firstName":"Alim",
+	"lastName":"Nazarov"
+}
+
+DELETE REQUEST
+http://localhost:8080/marksDetails/{id}
